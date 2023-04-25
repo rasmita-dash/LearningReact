@@ -11,5 +11,6 @@ root.render(heading);
 const parent =  React.createElement("div",{id:"parent"},
 React.createElement("div", {'id': 'child'},
 React.createElement('h1',{},"nested h1 element")));
+// React
 
 root.render(parent);
