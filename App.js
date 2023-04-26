@@ -16,3 +16,6 @@ const parent =  React.createElement("div",{id:"parent"},
                                                                 React.createElement('h1',{},"nested h1 element")));
 
 root.render(parent);
+
+const jsxHeading= <h1 id = 'header'>heading from JSX</h1>;
+root.render(jsxHeading);
