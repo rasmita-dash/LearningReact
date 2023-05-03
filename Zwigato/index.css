@@ -23,8 +23,10 @@
 .res-container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-.res-card{
+.res-card, .shimmer{
     width:200px;
     height:300px;
     padding: 5px;
@@ -36,4 +38,8 @@
 }
 .res-logo{
     width: 100%;
+}
+.filter-btn{
+margin:10px;
+cursor:pointer;
 }
