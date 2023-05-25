@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    padding: 10px;
+    margin: 10px;
+}
+input.content{
+    width:50%;
+}
+.slide-value-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    height: 15%;
+    width: 100%;
+    background-color: azure;
+    border: 2px solid cornsilk;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.header li{
+    list-style: none;
+    display: inline;
+    margin:4px;
+    padding: 4px;
+}
