@@ -26,3 +26,5 @@ const RestaurantMenu= ()=>{
 }
 
 export default RestaurantMenu;
+
+//name + locality +area+ slugs.city +id

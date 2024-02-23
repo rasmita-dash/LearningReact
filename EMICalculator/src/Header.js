@@ -12,6 +12,7 @@ return (
                 <li><NavLink to="emi-calculator">EMI Calculator</NavLink></li>
                 <li><NavLink to="timer">Timer</NavLink></li>
                 <li><NavLink to="click-counter">Click Counter</NavLink></li>
+                <li><NavLink to="tic-tac-toe">Tic Tac Toe</NavLink></li>
             </ul>
         </div>
     </div>

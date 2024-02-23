@@ -33,3 +33,12 @@ input.content{
     margin:4px;
     padding: 4px;
 }
+
+.btn-square{
+    min-height: 50px;
+    min-width: 50px;
+}
+
+.btn-square span{
+    display: block;
+}

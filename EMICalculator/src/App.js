@@ -6,6 +6,7 @@ import EmiCalculator from "./EmiCalculator";
 import Timer from "./Timer";
 import Header from "./Header";
 import ClickCounter from "./ClickCounter";
+import TicTacToe from "./TicTacToe";
 
 const App = () =>{
 
@@ -24,6 +25,7 @@ const route= createBrowserRouter(
             {path:'timer', element: <Timer/>},
             {path:'emi-calculator', element: <EmiCalculator/>},
             {path:'click-counter', element: <ClickCounter/>},
+            {path:'tic-tac-toe', element:<TicTacToe/>}
         ]
     }]
 )

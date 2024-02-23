@@ -1,5 +1,4 @@
 import RestaurantCard from "./RestaurantCard";
-import restaurantList from "../utils/mockData";
 import Shimmer from "./Shimmer";
 import { useState, useEffect } from "react";
 import { GET_RES_API_URL } from "../utils/constants";
